@@ -1,0 +1,40 @@
+#============================================================================================================
+#                                   PLUGIN RITOECO DE RITO | CONFIG
+#============================================================================================================
+#                          ____  ______________     ________________
+#                         / __ \/  _/_  __/ __ \   / ____/ ____/ __ \
+#                        / /_/ // /  / / / / / /  / __/ / /   / / / /
+#                       / _, _// /  / / / /_/ /  / /___/ /___/ /_/ /
+#                      /_/ |_/___/ /_/  \____/  /_____/\____/\____/
+
+#============================================================================================================
+#                                   PLUGIN RITOECO DE RITO | CONFIG
+#============================================================================================================
+#-----------------------------------------------------------------------------------------------------------
+#                                           ECO
+#-----------------------------------------------------------------------------------------------------------
+base-money: 0
+
+#-----------------------------------------------------------------------------------------------------------
+#                                           MESSAGE
+#-----------------------------------------------------------------------------------------------------------
+# **OTHER**
+message.no-perm: "§rVous n'avez pas la §epermission§r de faire cette command !"
+
+# **CMD**
+# JOUEUR
+message.cmd-mymoney: "§rVoici votre money: §e{money}money§r !"
+
+message.cmd-topmoney1: "Voici le top money du RitoECO :\n" # MESSAGE AVANT L'AFFICHAGE DU CLASSEMENT
+message.cmd-topmoney2: "§e#{top}§f $name -> §e{money}money§f\n" # DISPOSITION DU CLASSEMENT
+
+message.cmd-paymoney.nomoney: "Vous n'avez pas assez d'argent !"
+message.cmd-paymoney.donate: "Vous avez bien envoyez §e{money}money §fà §e{target}§f !"
+message.cmd-paymoney.result: "Vous avez recus §e{money}money§f de la part de §e{donnateur}§f !"
+
+# STAFF
+message.cmd-addmoney.donate: "Vous avez bien ajouter §e{money}money §fà §e{target}§f !"
+message.cmd-addmoney.result: "On vous a ajouter §e{money}money§f de la part de §e{staff}§f !"
+
+message.cmd-removemoney.donate: "Vous avez bien enlever §e{money}money §fà §e{target}§f !"
+message.cmd-removemoney.result: "On vous a enlever §e{money}money§f de la part de §e{staff}§f !"

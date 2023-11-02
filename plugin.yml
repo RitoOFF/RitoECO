@@ -1,0 +1,19 @@
+name: RitoECO
+api: [5.0.0, 4.0.0]
+version: 1.0.0
+authors:
+  - Rito
+main: Rito\RitoECO\Main
+
+permissions:
+  ritoeco.perm-mymoney:
+    default: true
+  ritoeco.perm-topmoney:
+    default: true
+  ritoeco.perm-paymoney:
+    default: true
+
+  ritoeco.perm-givemoney:
+    default: op
+  ritoeco.perm-removemoney:
+    default: op
